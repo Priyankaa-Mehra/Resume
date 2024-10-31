@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</head>
+<body>
+    <div id="header">
+        <a href="#" class="logo">Portfolio</a>
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>  
+                </ul>
+            </nav>
+            <div class="header-text">
+                <h3>Hello, It's Me</h3>
+                <h1>Priyanka Mehra</h1>
+                <h3>And I'm a <span class="text"></span></h3>
+                <p>Specializing in AI-integrated web design for enhanced user experiences
+                    <br>Expert in crafting intuitive interfaces for compelling web experiences.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/bg.png" alt="User Image">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>Hey, I'm Priyanka Mehra. A creative individual with a passion for problem-solving and a love for all things tech. 
+                        I recently graduated with a degree in Computer Science and have experience working on various projects that have honed 
+                        my skills in coding and web development. I thrive in collaborative environments and enjoy taking on new challenges to
+                        expand my knowledge. Outside of work, you can find me exploring new coding languages or capturing moments through photography.
+                        Excited to continue growing and making a positive impact in the tech world.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul> 
+                            <li><span>Web Development</span><br>Designing Websites</li>
+                            <li><span>App Development</span><br>Building Android Apps</li>
+                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul> 
+                            <li><span>2024-Current</span><br>Internship at CodeAlpha</li>
+                            <li><span>2022-2023</span><br>Internship at CodeSoft</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul> 
+                            <li><span>Current</span><br>MCA From UPES Dehradun</li>
+                            <li><span>2023</span><br>BCA from Amrapali Haldwani</li>
+                            <li><span>2024</span><br>UI/UX Design course at Coursera</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Websites for the client to use and 
+                        should remain client-focused to achieve the 
+                        best results.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-shopify"></i>
+                    <h2>App Design</h2>
+                    <p>Applications for the client to use and 
+                        should remain client-focused to achieve the best results.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-ghost"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Appealing Web Designs for the client to use and 
+                        should remain client-focused to achieve the best results.
+                    </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- My Work Section -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/cafe.png" alt="Blisscafe menu">
+                <div class="layer">
+                    <h3>Blisscafe menu</h3>
+                    <p>Let you order through a digital card where payment can also be done online.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/flower.png" alt="Flower web">
+                <div class="layer">
+                    <h3>Flower web</h3>
+                    <p>Order flowers through a digital card with online payment options.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/gros.png" alt="Grocery store">
+                <div class="layer">
+                    <h3>Grocery store</h3>
+                    <p>Order groceries through a digital card with online payment options.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+</div>
+
+    <!-- Resume Button Section -->
+<div class="resume-section">
+    <div class="container">
+       
+        <a href="image/resumepriyanka.pdf" class="btn resume-btn">See my Resume</a>
+    </div>
+</div>
+
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <div class="contact-left">
+            <h2 class="sub-title">Contact Me</h2>
+            <p>Have a project in mind or just want to say hello? Drop me a message and I'll get back to you as soon as possible.</p>
+            <div class="social-icons">
+                <a href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/session"><i class="fab fa-github"></i></a>
+                <a href="https://codepen.io/"><i class="fab fa-codepen"></i></a>
+            </div>
+        </div>
+        <div class="contact-right">
+            <form action="#">
+                <div class="input-container">
+                    <input type="text" placeholder="Your Name">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="input-container">
+                    <input type="email" placeholder="Your Email">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="input-container">
+                    <textarea placeholder="Your Message"></textarea>
+                    <i class="fas fa-pencil-alt"></i>
+                </div>
+                <input type="submit" class="btn but" value="Send Message">
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer id="footer">
+    <div class="container">
+        <p>&copy; 2024 Priyanka. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Accessibility</a>
+        </div>
+    </div>
+</footer>
+
+
+
+
+<!-- JavaScript for Tabs and Menu -->
+<script>
+    function opentab(tabname) {
+        var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+        for (var tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (var tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        document.getElementById(tabname).classList.add("active-tab");
+        event.currentTarget.classList.add("active-link");
+    }
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+
+    }
+    document.addEventListener('DOMContentLoaded', function () {
+    var typed= new Typed(".text",{
+    strings:["Frontend Developer","App Developer","Web Developer"],
+    typeSpeed:100,
+    backSpeed:100,
+    backDelay:1000,
+    loop:true
+    });
+});
+
+
+</script>
+</body>
+</html>
